@@ -1,0 +1,44 @@
+[2018-04-02 02:10:47,701: INFO/MainProcess] Connected to redis://127.0.0.1:6379//
+[2018-04-02 02:10:47,723: INFO/MainProcess] mingle: searching for neighbors
+[2018-04-02 02:10:48,752: INFO/MainProcess] mingle: all alone
+[2018-04-02 02:10:48,762: WARNING/MainProcess] celery@celery_worker33 ready.
+[2018-04-02 02:10:51,105: INFO/MainProcess] Events of group {task} enabled by remote.
+[2018-04-02 02:11:07,306: INFO/MainProcess] Received task: celery_app.task1.add[5fa97f9d-7157-47c2-9e8f-05f1b03fc709]
+[2018-04-02 02:15:17,565: WARNING/Worker-1] Done!
+    sender: <@task: celery_app.task1.add of demo:0x1942dd0>
+    task_id: 5fa97f9d-7157-47c2-9e8f-05f1b03fc709
+    task: <@task: celery_app.task1.add of demo:0x1942dd0>
+    retval: None
+    state: None
+    args:[2, 8]
+    kwargs:{}
+    kwds:{'signal': <Signal: Signal>}
+[2018-04-02 02:15:18,459: WARNING/MainProcess] Exception
+[2018-04-02 02:15:18,459: WARNING/MainProcess] KeyError
+[2018-04-02 02:15:18,459: WARNING/MainProcess] :
+[2018-04-02 02:15:18,459: WARNING/MainProcess] KeyError(139998546958144,)
+[2018-04-02 02:15:18,459: WARNING/MainProcess] in
+[2018-04-02 02:15:18,459: WARNING/MainProcess] <module 'threading' from '/usr/lib64/python2.7/threading.pyc'>
+[2018-04-02 02:15:18,459: WARNING/MainProcess] ignored
+[2018-04-02 02:17:14,051: INFO/MainProcess] Connected to redis://127.0.0.1:6379//
+[2018-04-02 02:17:14,078: INFO/MainProcess] mingle: searching for neighbors
+[2018-04-02 02:17:15,085: INFO/MainProcess] mingle: all alone
+[2018-04-02 02:17:15,101: WARNING/MainProcess] celery@localhost.localdomain ready.
+[2018-04-02 02:17:16,103: INFO/MainProcess] Events of group {task} enabled by remote.
+[2018-04-02 02:17:58,724: INFO/MainProcess] Received task: celery_app.task1.add[76ef6629-da7e-434e-a2ba-da743b249bc4]
+[2018-04-02 02:19:11,533: WARNING/Worker-1] Done!
+    sender: <@task: celery_app.task1.add of demo:0x2a5ed90>
+    task_id: 76ef6629-da7e-434e-a2ba-da743b249bc4
+    task: <@task: celery_app.task1.add of demo:0x2a5ed90>
+    retval: None
+    state: None
+    args:[2, 8]
+    kwargs:{}
+    kwds:{'signal': <Signal: Signal>}
+[2018-04-02 02:19:11,935: WARNING/MainProcess] Exception
+[2018-04-02 02:19:11,935: WARNING/MainProcess] KeyError
+[2018-04-02 02:19:11,935: WARNING/MainProcess] :
+[2018-04-02 02:19:11,936: WARNING/MainProcess] KeyError(140485998749504,)
+[2018-04-02 02:19:11,936: WARNING/MainProcess] in
+[2018-04-02 02:19:11,936: WARNING/MainProcess] <module 'threading' from '/usr/lib64/python2.7/threading.pyc'>
+[2018-04-02 02:19:11,936: WARNING/MainProcess] ignored
